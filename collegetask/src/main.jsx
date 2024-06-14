@@ -2,7 +2,7 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
 
-// import Navbar from './Navbar/navbar.jsx';
+// // import Navbar from './Navbar/navbar.jsx';
 // import Home from './Home/home.jsx'
 // import Home1 from './Home/home1.jsx'
 // import Services from "./Services/services.jsx"
@@ -25,10 +25,11 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './app.jsx';
+import App from './app';
+import Home from './Home/home';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>
 );

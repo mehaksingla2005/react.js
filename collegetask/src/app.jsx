@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home1 from './Home/home1.jsx';
 import Home from './Home/home.jsx';
 import Services from "./Services/services.jsx";
@@ -11,18 +11,26 @@ import Navbar from "./Navbar/navbar.jsx";
 const App = () => {
   return (
     <BrowserRouter>
-      <Switch>
-      <Navbar />
-        <Route exact path="/" render={() => (
-          <div>
-            
-            <Home1 />
-            <Home />
-            <Middle />
-            <Footer />
-          </div>
-        )} />
-        <Route path="/services" render={() => (
+    <Navbar />
+      <Routes>
+        <Route path="/" element={
+          <>
+          <Home1 />
+          <Home />
+          <Middle />
+          <Footer />
+          </>
+        }/>
+        <Route path="/services" element={
+          <Services/>
+        }/>
+        <Route path="/pricing" element={
+         <Process/>
+        }/>
+        <Route path="/submitOrder" element={
+          <Footer/>
+        }/>
+        {/* <Route path="/services" render={() => (
           <div>
             <Services />
           </div>
@@ -36,8 +44,8 @@ const App = () => {
           <div>
             <Footer />
           </div>
-        )} />
-      </Switch>
+        )} /> */}
+      </Routes>
     </BrowserRouter>
   );
 };
