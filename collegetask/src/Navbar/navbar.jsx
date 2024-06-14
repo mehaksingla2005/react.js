@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ const Navbar = () => {
                 {/* Vertical Menu */}
                 {isMenuOpen && (
                     <div className="absolute right-0 top-full bg-white shadow-lg rounded-lg mt-2 lg:hidden w-full">
-                       <Link to="/" className="font-poppins text-gray-700 text-lg py-2 px-4 hover:bg-gray-100 cursor-pointer transition duration-300 ease-in-out active:bg-gray-200">Home</Link>
+                       <Link to="/Home" className="font-poppins text-gray-700 text-lg py-2 px-4 hover:bg-gray-100 cursor-pointer transition duration-300 ease-in-out active:bg-gray-200">Home</Link>
 <Link to="/services" className="font-poppins text-gray-700 text-lg py-2 px-4 hover:bg-gray-100 cursor-pointer transition duration-300 ease-in-out active:bg-gray-200">Services</Link>
 <Link to="/pricing" className="font-poppins text-gray-700 text-lg py-2 px-4 hover:bg-gray-100 cursor-pointer transition duration-300 ease-in-out active:bg-gray-200">Pricing</Link>
 <Link to="/submitorder" className="font-poppins text-gray-700 text-lg py-2 px-4 hover:bg-gray-100 cursor-pointer transition duration-300 ease-in-out active:bg-gray-200">Submit order</Link>
