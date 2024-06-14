@@ -9,7 +9,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="flex justify-between items-center p-4 relative">
+        <div className="flex justify-between items-center p-4 px-16 relative">
             <div className="flex items-center">
                 <p className="font-bebas font-bold text-2xl text-blue-900">
                     LOGO<span className="text-green-500">HERE</span>

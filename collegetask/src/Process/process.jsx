@@ -8,8 +8,8 @@ import Group from "../assets/group.png"
 const Process = () => {
   return (
     <>
-    <div className="flex flex-col justify-center items-center">
-        <p className='font-poppins font-bold text-6xl text-indigo-900 p-16 '>How It Works</p>
+    <div className="flex flex-col justify-center items-center p-16">
+        <p className='font-poppins font-bold text-6xl text-indigo-900 p-8 '>How It Works</p>
         <div className="container mx-auto px-4 py-8">
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
   <Card

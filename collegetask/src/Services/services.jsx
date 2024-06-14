@@ -9,6 +9,7 @@ import Arrow from "../assets/arrow.png"
 const Services = () => {
   return (
     <>
+    <div className='p-16'>
     <div>
         
         <p className="font-poppins font-bold text-4xl text-indigo-900 sm:text-5xl mt-20 mx-auto text-center my-16 ">We Provide Best Proofreading <br/>& Editing Services</p>
@@ -40,6 +41,7 @@ const Services = () => {
         <img src={Arrow} alt="Arrow"  className="h-10 w-10 p-2"/>
 
       </button>
+    </div>
     </div>
 
     </>

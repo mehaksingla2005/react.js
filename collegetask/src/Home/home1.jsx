@@ -5,7 +5,7 @@ const Home1 = () => {
   return (
     <>
     <div className='bg-gradient-to-r from-indigo-900 to-indigo-100 flex align-items justify-around  '>
-        <div className='text-white flex flex-col p-8 my-20 '>
+        <div className='text-white flex flex-col p-16 my-20 '>
             <p className='font-inter font-medium text-2xl my-2'>WE OFFER PROFESSIONAL PROOFREADING</p>
             <h1 className="font-inter font-bold lg:text-6xl my-2 sm:text-4xl">Professional Editing &<br />
 Proofreading Services<br />

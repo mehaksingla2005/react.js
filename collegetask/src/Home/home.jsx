@@ -4,7 +4,7 @@ import proof from '../assets/proof.png'; // Assuming the image is in the assets 
 
 const Home = () => {
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto p-16">
       <div className="flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-y-0 sm:space-x-16">
         <div className="flex flex-col w-full sm:w-1/2 px-4">
           <h3 className="text-green-500 font-poppins font-semibold text-2xl">WE ARE PROFESSIONAL</h3>
