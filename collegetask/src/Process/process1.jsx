@@ -5,7 +5,7 @@ import Arrow from "../assets/arrow.png"; // Ensure this is the correct path to y
 const Process1 = () => {
   return (
     <>
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto p-16 ">
         <div className="flex flex-col md:flex-row items-center justify-center space-y-8 sm:space-y-0 sm:space-x-16">
           <div className="w-full h-100% sm:w-1/2">
             <img src={ProofImage} alt="proof" className="w-full sm:my-8" />
