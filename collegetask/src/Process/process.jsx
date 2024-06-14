@@ -1,8 +1,9 @@
 import React from 'react';
+import Card from "../Process/card.jsx"
 import Re from "../assets/re.png"
 import Group2 from "../assets/group2.png"
 import Group from "../assets/group.png"
-import Card from "../Process/card.jsx"
+
 
 const Process = () => {
   return (
